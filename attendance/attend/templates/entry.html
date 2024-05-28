@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+       name <input type="text" id="user_name" name="user_name"> <br>
+       entry time <input type="time" id="start_time" name="entry_time"><br>
+       <button type="submit">add</button>
+</html>
